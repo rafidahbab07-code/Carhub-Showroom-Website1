@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>'X' University Admission And Scholarship Form</title>
+       <meta charset="utf-8">
+       <style>
+        body {background-color: lightyellow; font-family: Elegant Luxurious; font-size:larger; text-align: justify;
+        margin: 50px;}
+        h1 {color: black; margin-bottom: 100px; text-align: center;}
+        h3 {color: black; margin-bottom: 50px; text-align: center;}
+        label {display: block; font-weight: bold; margin-bottom: auto;}
+        .row {display: flex; gap: 200px; margin-bottom:auto;}
+        p {font-size: large; font-style: italic; font-weight: 50; margin-bottom: 40px; text-align: center;}
+        button {background-color: black; color: white; padding: 10px 20px; border: 3px solid white; display: block; margin:auto; }
+        .personal {background-color: white; padding: 20px; border: 2px solid black; margin-bottom: 20px;}
+       .academic {background-color: white; padding: 20px; border: 2px solid black; margin-bottom: 20px;}
+       .test-scholarship {background-color: white; padding: 20px; border: 2px solid black; margin-bottom: 20px;}
+       textarea {width: 100%; max-width: 1000px; height: 100px; padding: 10px; border: 2px solid black; margin-bottom: 20px;}
+       .PO {color: DarkBlue; font-family: cursive;}
+       .AI {color: DarkGreen;font-family: new times roman;}
+       .TS {color: DarkRed; font-family: monospace;}
+       input[type="text"],input[type="number"],input[type="email"],input[type="tel"],input[type="date"] {width:100%;max-width: 400px; padding: 15px; border: 2px solid black; margin-bottom: 20px;}
+       .reset {background-color: gray; color: black; padding: 10px 15px; }
+       button:hover {background-color: red; border: 3px solid black; color :white;}
+       
+       </style> 
+         </head>
+       <body>
+        <h1>'X' University Admission And Scholarship Form</h1>
+    <p>Please fill out the following information:</p>
+    <form><div class="personal">
+        <h3 class="PO"><u>Personal Information</u></h3>
+        <label for="name">Full Name [In Block Letters]:</label>
+        <input type="text" id="student name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" value="male"> Male
+        <input type="radio" id="female" value="female"> Female
+        <br><br>
+        <label for="date of birth">Date of Birth:</label>
+        <input type="date" id="date of birth" placeholder="dd/mm/yyyy" required>
+        <br><br>
+        <label for="Test pass">Student's Test Pass:</label>
+        <input type="number" id="test pass" placeholder="Enter your test pass" required>
+        <br><br>
+        <label for="email">Student's Email:</label>
+        <input type="email" id="student email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="phone">Student's Phone Number:</label>
+        <input type="tel" id="student phone" placeholder="Enter your phone number" required>
+        <br><br>
+        <div class="row">
+            <div>
+                <label for="Father's name">Father's Name:</label>
+                <input type="text" id="Father's name" placeholder="Enter your father's name" required>
+                <br><br>
+                <label for="Father's occupation">Father's Occupation:</label>
+                <input type="text" id="Father's occupation" placeholder="Enter your father's occupation" required>
+                <br><br>
+                <label for="Father's phone number">Father's Phone Number:</label>
+                <input type="tel" id="Father's phone number" placeholder="Enter your father's phone number" required>
+                <br><br>
+                <label for="Father's email">Father's Email:</label>
+                <input type="email" id="Father's email" placeholder="Enter your father's email" required>
+                <br><br>
+            </div>
+            <div>
+                <label for="Mother's name">Mother's Name:</label>
+                <input type="text" id="Mother's name" placeholder="Enter your mother's name" required>
+                <br><br>
+                <label for="Mother's occupation">Mother's Occupation:</label>
+                <input type="text" id="Mother's occupation" placeholder="Enter your mother's occupation" required>
+                <br><br>
+                <label for="Mother's phone number">Mother's Phone Number:</label>
+                <input type="tel" id="Mother's phone number" placeholder="Enter your mother's phone number" required>
+                <br><br>
+                <label for="Mother's email">Mother's Email:</label>
+                <input type="email" id="Mother's email" placeholder="Enter your mother's email" required>
+                <br><br>
+            </div>
+        </div>
+        <label for="current address">Current Address:</label>
+        <input type="text" id="current address" placeholder="Enter your current address" required>
+        <br><br>
+        <label for="permanent address">Permanent Address:</label>
+        <input type="text" id="permanent address" placeholder="Enter your permanent address" required>
+        <br><br>
+        </div>
+        <div class="academic">
+        <h3 class="AI"><u>Academic Information</u></h3>
+        <label for="SSC GPA">SSC GPA:</label>
+        <input type="number" id="SSC GPA" placeholder="Enter your SSC GPA" required>
+        <br><br>
+        <label for="SSC Group">SSC Group:</label>
+        <input type="checkbox" id="Science" name="SSC Group"> Science
+        <input type="checkbox" id="Business Studies" name="SSC Group"> Business Studies
+        <input type="checkbox" id="Humanities" name="SSC Group"> Humanities
+        <br><br>
+        <label for="SSC Certificate">Upload SSC Certificate:</label>
+        <input type="file" id="SSC Certificate" name="SSC Certificate" required>
+        <br><br>
+        <label for="HSC GPA">HSC GPA:</label>
+        <input type="number" id="HSC GPA" placeholder="Enter your HSC GPA" required>
+        <br><br>
+        <label for="HSC Group">HSC Group:</label>
+        <input type="checkbox" id="Science" name="HSC Group"> Science
+        <input type="checkbox" id="Business Studies" name="HSC Group"> Business Studies
+        <input type="checkbox" id="Humanities" name="HSC Group"> Humanities
+        <br><br>
+        <label for="HSC Certificate">Upload HSC Certificate:</label>
+        <input type="file" id="HSC Certificate" name="HSC Certificate" required>
+        <br><br>
+    </div>
+        <div class="test-scholarship">
+            <h3 class="TS"><u>Test & Scholarship Information</u></h3>
+        <label for="Test Result Serial">Test Result Serial:</label>
+        <input type="text" id="Test Result Serial" placeholder="Enter your test result serial" required>
+        <br><br>
+        <label for="Test Score">Test Score:</label>
+        <input type="number" id="Test Score" placeholder="Enter your test score" required>
+        <br><br>
+        <label for="Department">Selected Department:</label>
+        <select id="department" required>
+            <option>BBA</option>
+            <option>EEE</option>
+            <option>CSE</option>
+            <option>LLB</option>
+            <option>English</option>
+            </select>
+            <br><br>
+            <textarea id="Why do you need scholarship" placeholder="Why do you need scholarship?" required></textarea>
+            <br><br>
+            <button type="submit" class="buttom submit-button">Submit Form</button>
+            <button type="reset" class="reset">Reset Form</button>                        
+        </div>
+    </form>
+       </body>
+</html>
+        
+        
+    

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Class Registration Form</title>
+        <meta charset="utf-8">
+        <style>
+            body {background-color: rgb(224, 147, 240);}
+            h1 {color: rgb(47, 4, 47); margin-bottom: 100px; text-align: center;}
+            label {display: block;font-weight:bold; margin-bottom: auto;} 
+            button {background-color: DarkViolet; color: white; padding: 10px 20px; border: 3px solid black; display: block; margin: auto; font-size: 25px;}
+   </style>
+    </head>
+    <body>
+        <h1 text-align="center">Class Registration Form</h1>
+        <p>Please fill out the form below to register for a class.</p>
+        <form>
+            <label for="name"><b>Student Name:</b></label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="ID">Student ID:</label>
+            <input type="number" id="ID" placeholder="Enter your ID" required>
+             <br><br>
+            <label for="class">Select Class Level:</label>
+            <select id="class level" required>
+                <option>1st Grade</option>
+                <option>2nd Grade</option>
+                <option>3rd Grade</option>
+                <option>4th Grade</option>
+                <option>5th Grade</option>
+                <option>6th Grade</option>
+                <option>7th Grade</option>
+                <option>8th Grade</option>
+                <option>9th Grade</option>
+                <option>10th Grade</option>
+                <option>11th Grade</option>
+                <option>12th Grade</option>
+            </select>
+                <br><br>
+                <label for="Group">Select Group Subject:</label>
+                <select id="Group" required>
+                    <option>Science</option>
+                    <option>Business studies</option>
+                    <option>Humanities</option>
+                </select>
+                <br><br>
+                <label for="Class days">Select Class Days:</label>
+                <p>Please select the days you are available for classes:</p>
+                <input type="Checkbox" id="Class days" name="Class days"> Sunday
+                <input type="Checkbox" id="Class days" name="Class days"> Monday
+                <input type="Checkbox" id="Class days" name="Class days"> Tuesday
+                <input type="Checkbox" id="Class days" name="Class days"> Wednesday 
+                <input type="Checkbox" id="Class days" name="Class days"> Thursday
+                <input type="Checkbox" id="Class days" name="Class days"> Saturday
+                <br><br>
+                <button type="submit" style="text-align: center;">Submit</button>
+
+        </form>
+    </body>
+</html>
